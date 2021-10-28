@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/API_DataFetching_ReactApp/static/css/main.a3d3781a.chunk.css",
+    "main.js": "/API_DataFetching_ReactApp/static/js/main.fa2c9e6f.chunk.js",
+    "main.js.map": "/API_DataFetching_ReactApp/static/js/main.fa2c9e6f.chunk.js.map",
+    "runtime-main.js": "/API_DataFetching_ReactApp/static/js/runtime-main.daebeb20.js",
+    "runtime-main.js.map": "/API_DataFetching_ReactApp/static/js/runtime-main.daebeb20.js.map",
+    "static/js/2.b2207684.chunk.js": "/API_DataFetching_ReactApp/static/js/2.b2207684.chunk.js",
+    "static/js/2.b2207684.chunk.js.map": "/API_DataFetching_ReactApp/static/js/2.b2207684.chunk.js.map",
+    "index.html": "/API_DataFetching_ReactApp/index.html",
+    "static/css/main.a3d3781a.chunk.css.map": "/API_DataFetching_ReactApp/static/css/main.a3d3781a.chunk.css.map",
+    "static/js/2.b2207684.chunk.js.LICENSE.txt": "/API_DataFetching_ReactApp/static/js/2.b2207684.chunk.js.LICENSE.txt",
+    "static/media/Bit.2097ccb2.jpg": "/API_DataFetching_ReactApp/static/media/Bit.2097ccb2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.daebeb20.js",
+    "static/js/2.b2207684.chunk.js",
+    "static/css/main.a3d3781a.chunk.css",
+    "static/js/main.fa2c9e6f.chunk.js"
+  ]
+}
