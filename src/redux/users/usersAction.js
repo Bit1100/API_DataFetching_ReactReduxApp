@@ -31,10 +31,14 @@ export function fetchUsers() {
   return async (dispatch) => {
     dispatch(fetchUsersRequest);
     try {
-      const response = await axios.get("https://reqres.in/api/users?page=1");
+      const response = await axios({
+        method: "get",
+        url: "https://reqres.in/api/users?page=1",
+        json: true,
+      });
 
-      if (!response.statusText) {
-        throw new Error("Could not get the users.");
+      if (!response) {
+        new Error("Could not get the users.");
       }
 
       const users = response.data.data;
