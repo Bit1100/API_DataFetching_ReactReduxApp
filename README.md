@@ -1,5 +1,9 @@
 # Steps followed to create Api based React App
 
+## Data Management
+
+I've chosen redux way to distribute centralized the data to all the components
+
 ## Styling
 
 I've used SASS for designing purposes.
