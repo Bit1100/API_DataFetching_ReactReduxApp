@@ -1,7 +1,9 @@
 import React from "react";
 import BiT from "../assets/images/Bit.jpg";
+import { fetchUsers } from "../redux";
+import { connect } from "react-redux";
 
-const Navbar = ({ handleFetchData }) => {
+const Navbar = ({ getUsers }) => {
   return (
     <>
       <nav>
@@ -9,7 +11,7 @@ const Navbar = ({ handleFetchData }) => {
           <div className="logo">
             <img src={BiT} alt="Logo" />
           </div>
-          <button onClick={handleFetchData} className="btn btn-primary">
+          <button onClick={getUsers} className="btn btn-primary">
             Get Users
           </button>
         </div>
@@ -18,4 +20,10 @@ const Navbar = ({ handleFetchData }) => {
   );
 };
 
-export default Navbar;
+function mapDispatchToProps(dispatch) {
+  return {
+    getUsers: () => dispatch(fetchUsers()),
+  };
+}
+
+export default connect(null, mapDispatchToProps)(Navbar);
